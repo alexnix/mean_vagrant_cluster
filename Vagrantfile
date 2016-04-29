@@ -7,7 +7,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.define "db" do |db|
     db.vm.box = "ubuntu/trusty32"
-  	config.vm.network "private_network", ip: "192.168.33.11"
+  	db.vm.network "private_network", ip: "192.168.33.11"
   	db.vm.provision :chef_solo do |chef|
         chef.add_recipe "mongodb"
     end
