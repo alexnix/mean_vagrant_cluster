@@ -3,6 +3,7 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook "nodejs"
+cookbook "nodejs", "6.0.0"
 cookbook "mongodb"
 cookbook "git"
+cookbook "nginx"
