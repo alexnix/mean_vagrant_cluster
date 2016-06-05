@@ -1,2 +1,4 @@
 /tmp
 /.vagrant
+/application/gym_app/node_modules
+/application/gym_app/client/bower_components
